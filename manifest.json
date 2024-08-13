@@ -1,12 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Codeforces Timer",
+  "name": "CP Timer",
   "version": "1.0",
-  "description": "A timer that starts when you open a Codeforces problem.",
+  "description": "A timer that starts when you open a CF/AtCoder problem.",
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["https://codeforces.com/problemset/problem/*/*"],
+      "matches": [
+        "https://codeforces.com/problemset/problem/*/*",
+        "https://atcoder.jp/contests/*/*/*"
+      ],
       "js": ["content.js"],
       "css": ["styles.css"]
     }
