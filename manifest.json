@@ -8,6 +8,7 @@
     {
       "matches": [
         "https://codeforces.com/problemset/problem/*/*",
+        "https://codeforces.com/contest/*/problem/*",
         "https://atcoder.jp/contests/*/*/*"
       ],
       "js": ["content.js"],
